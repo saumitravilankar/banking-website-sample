@@ -1,0 +1,49 @@
+:root {
+    --swiper-theme-color: #4f46e5;
+}
+
+:root {
+    --swiper-navigation-size: 20px;
+}
+
+/* Custom CSS to change the pagination button color */
+.custom-swiper .swiper-pagination-bullet {
+    background-color: #bbb;
+    /* Change this to your desired color */
+    /* You can also add more styles like padding, border-radius, etc. */
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+    background-color: #fff;
+    /* Change this to your desired active color */
+}
+
+.swiper-button-next {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.swiper-button-prev {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    :root {
+        --swiper-navigation-size: 10px;
+    }
+
+    .swiper-button-next {
+        padding: 11px;
+        opacity: .6;
+        border-radius: 20px;
+    }
+
+    .swiper-button-prev {
+        padding: 11px;
+        opacity: .6;
+        border-radius: 20px;
+    }
+}
